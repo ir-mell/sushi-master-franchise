@@ -771,7 +771,7 @@ footer .btn {
 
 
 
-@media (min-width: 386px) { 
+@media (min-width: 386px) and (max-width: 766px) { 
 
 	nav{
 		padding-bottom: 15%;
