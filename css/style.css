@@ -746,6 +746,7 @@ footer .btn {
 	    -ms-transform: rotate(45deg);
 	    transform: rotate(45deg);
 	}
+	
 }
 
 
@@ -933,7 +934,7 @@ footer .btn {
 	}
 
 	.hot-offers .btn{
-		font-size: 1.37rem;
+		font-size: 1rem;
 	}
 
 	footer h2{
