@@ -374,7 +374,7 @@ header h3{
     left: 17px;
     padding: 145px 227px;
     border: 10px solid red;
-    z-index: -1;
+    z-index: 1;
 }
 
 .reasons h2{
