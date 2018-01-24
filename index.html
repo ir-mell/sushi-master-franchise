@@ -8,7 +8,9 @@
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/style.css">
+
 
 	<title>Суши Мастер</title>
 </head>
@@ -382,27 +384,45 @@
 						</h2>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-7">
-						<img src="images/tyumen.png" class="img-fluid" alt="Responsive image">
+				<div class='single-story'>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12 col-lg-7">
+								<img src="images/tyumen.png" class="img-fluid" alt="Responsive image">
+							</div>
+							<div class="col-12 col-lg-5 description">
+								<p><span>Адрес </span><br>г.Тюмень,ул.Газовиков,61</p>
+								<p><span>Формат </span><br>Street</p>
+								<p><span>Дата открытия </span><br>1 апреля 2016г.</p>
+								<p><span>Инвестиции </span><br>1 471 000 руб.</p>
+								<p><span>Окупаемость </span><br>3 месяца</p>
+							</div>
+						</div>
 					</div>
-					<div class="col description">
-						<p><span>Адрес </span><br>г.Тюмень,ул.Газовиков,61</p>
-						<p><span>Формат </span><br>Street</p>
-						<p><span>Дата открытия </span><br>1 апреля 2016г.</p>
-						<p><span>Инвестиции </span><br>1 471 000 руб.</p>
-						<p><span>Окупаемость </span><br>3 месяца</p>
-					</div>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12 col-lg-7">
+								<img src="images/tyumen.png" class="img-fluid" alt="Responsive image">
+							</div>
+							<div class="col-12 col-lg-5 description">
+								<p><span>Адрес </span><br>г. Краснодар,ул. 40-летия Победы,69</p>
+								<p><span>Формат </span><br>Street</p>
+								<p><span>Дата открытия </span><br>Дата</p>
+								<p><span>Инвестиции </span><br>1 231 000 руб.</p>
+								<p><span>Окупаемость </span><br>3 месяца</p>
+							</div>
+						</div>	
+					</div>	    
 				</div>
 				<div class="row">
 					<div class="col-12 col-md-4 offset-md-8 btns-navigation">
 						
-							<a href="#" class="back">
+							<a href="#!" onclick="prevStory();" class="back">
 								<img src="images/btn-back.png" alt="back" class="img-fluid">
 								<span>Назад</span>
 							</a>
 							
-							<a href="#" class="forward">
+							<a href="#!" onclick="nextStory();" class="forward">
 								<span>Вперед</span>
 								<img src="images/btn-forward.png" alt="back" class="img-fluid">
 							</a>
@@ -457,6 +477,7 @@
   crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" crossorigin="anonymous"></script>
 	<script>
 
 	$(document).ready(function(){
@@ -476,6 +497,14 @@
 	    	} 
 		
 		});
+
+
+		$(".single-story").slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: false,
+			dots: false
+		});
 		
 	});
 
@@ -493,6 +522,16 @@
 	    $('html, body').animate({
 			scrollTop: "0px"
 		}, 800);
+	}
+
+	function nextStory(){
+		$(".single-story").slick('slickNext');
+		return false;
+	}
+
+	function prevStory(){
+		$(".single-story").slick('slickPrev');
+		return false;
 	}
 
 	</script>
