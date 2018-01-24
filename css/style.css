@@ -1,0 +1,619 @@
+body {
+    font-family: "GothamPro";
+    font-size: 16px;
+	color: #161919;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url("../fonts/gothampro.eot");
+    src: url('../fonts/gothampro.eot?#iefix') format('embedded-opentype'), url('../fonts/gothampro.woff') format('woff'), url('../fonts/gothampro.ttf') format('truetype'), url('../fonts/gothampro.svg#GothamPro') format('svg');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/gothampro-bold.eot');
+    src: url('../fonts/gothampro-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/gothampro-bold.woff') format('woff'), url('../fonts/gothampro-bold.ttf') format('truetype'), url('../fonts/gothampro-bold.svg#GothamPro') format('svg');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/gothampro-light.eot');
+    src: url('../fonts/gothampro-light.eot?#iefix') format('embedded-opentype'), url('../fonts/gothampro-light.woff') format('woff'), url('../fonts/gothampro-light.ttf') format('truetype'), url('../fonts/gothampro-light.svg#GothamPro') format('svg');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/gothampro-medium.eot');
+    src: url('../fonts/gothampro-medium.eot?#iefix') format('embedded-opentype'), url('../fonts/gothampro-medium.woff') format('woff'), url('../fonts/gothampro-medium.ttf') format('truetype'), url('../fonts/gothampro-medium.svg#GothamPro') format('svg');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/gothampro-black.eot');
+    src: url('../fonts/gothampro-black.eot?#iefix') format('embedded-opentype'), url('../fonts/gothampro-black.woff') format('woff'), url('../fonts/gothampro-black.ttf') format('truetype'), url('../fonts/gothampro-black.svg#GothamPro') format('svg');
+    font-weight: 800;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.padding-none{
+	padding: 0;
+}
+
+
+/* header */
+
+header{
+    background-image:url(../images/bg-header.png);
+    background-size: cover;
+    color: #fff;
+}
+
+header strong {
+    font-weight: 800;
+    font-size: 34px;
+}
+
+header p{
+    font-weight: 400;
+    font-size: 21px;
+    text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.nav-link{
+	padding: 16px 0 0 0;
+}
+
+header a{
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+header a:hover{
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+header .logo{
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%
+}
+
+header .navigation {
+	padding-top: 8%;
+	padding-bottom: 10%;
+	padding-left: 5%;
+	padding-right: 5%
+}
+
+header h3{
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 40px;
+	background-color: #fff;
+	color: #161919;
+	margin-top: 5%;
+	padding: 8px 0;
+}
+
+/* business-under-brand */
+
+.business-under-brand{
+    background-image:url(../images/bg-business.png);
+    background-size: cover;
+}
+
+.business-under-brand h2{
+	font-weight: 400;
+	font-size: 80px;
+	text-transform: uppercase;
+	padding-top: 5%;
+}
+
+.business-under-brand h2 span{
+	color: #ff0000;
+	font-weight: 700;
+}
+
+.bg-white{
+	background-color: #fff;
+}
+
+.business-under-brand p:first-of-type{
+	padding-top: 3%;
+}
+
+.business-under-brand p{
+	font-size:34px;
+	text-transform: uppercase;
+}
+
+.business-under-brand p span{
+	font-weight: 700;
+}
+
+.dynamics-of-discovery {
+	padding-top: 3%;
+}
+
+.advantages{
+	padding-top: 5%;
+}
+
+.red-color {
+    background-color: #ff0000;
+}
+
+.black-color{
+	background-color: #000000;
+}
+
+.grey-color {
+	background-color: #e0e0e0;
+}
+
+.advantages .red-color p{
+	margin: 0;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.advantages .red-color p span{
+	font-size: 72px;
+}
+
+.advantages .cities{
+	line-height: 40px;
+    padding-top: 10% !important;
+	font-size: 30px !important;
+}
+
+.advantages .countries{
+	line-height: 40px;
+    padding-top: 10% !important;
+	font-size: 30px !important;
+}
+
+.advantages .countries-list{
+	padding-top: 10%;
+}
+
+
+
+.advantages .black-color {
+	padding: 23%;
+	padding-bottom: 26%;
+	padding-top: 26%;
+}
+.advantages .grey-color p{
+	margin: 0;
+	color: #000000;
+	font-weight: 700;
+	font-size: 36px;
+	padding: 27px;
+}
+
+.advantages .grey-color p span{
+	font-size: 72px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/* video */
+
+.video {
+	background-color: #000000;
+}
+
+.video h2{
+	font-weight: 400;
+	font-size: 48px;
+	text-transform: uppercase;
+	padding-top: 8%;
+	padding-bottom: 3%;
+	color: #ffffff;
+}
+
+.video h2 span{
+	font-weight: 700;
+}
+
+.video .btn {
+	color: #000000;
+	background-color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 42px;
+	margin-top: 3%;	
+	margin-bottom: 16%;
+	padding: 5px 15px;
+}
+
+/* reasons */
+
+.square-block{
+    position: absolute;
+    top: -65px;
+    left: 17px;
+    padding: 145px 227px;
+    border: 10px solid red;
+}
+
+.reasons h2{
+	font-weight: 700;
+    font-size: 68px;
+    margin: 0;
+    line-height: 40px;
+    padding-left: 17%;
+    padding-top: 8%;
+}
+
+.reasons h2 span{
+	font-weight: 400;
+	font-size: 37px;
+}
+
+.reasons h2 strong{
+	font-weight: 700;
+	font-size: 41px;
+}
+
+.reasons h4{
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.reasons-padding{
+	padding-top: 3%;
+}
+
+.padding{
+	padding-top: 5%;
+}
+
+.reasons p{
+	font-variant: small-caps;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.bg-picture-2 {
+    background-image:url(../images/reasons-brand.png);
+    background-size: cover;
+	min-height: 538px;
+}
+
+.bg-picture-4 {
+    background-image:url(../images/reasons-investment.png);
+    background-size: cover;
+	min-height: 538px;
+}
+
+.bg-picture-6 {
+    background-image:url(../images/reasons-support.png);
+    background-size: cover;
+	min-height: 538px;
+}
+
+.reasons-pictures {
+	padding: 10%;
+}
+
+.secret {
+	padding-top: 10%;
+}
+
+.atmosphere{
+	padding-top: 20%;
+	padding-bottom: 7%;
+}
+
+/* hot-offers */
+
+.hot-offers{
+    background-image:url(../images/bg-business.png);
+    background-size: cover;
+}
+
+.hot-offers h2{
+    font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 5%;
+}
+
+.hot-offers p{
+	font-variant: small-caps;
+	font-size: 30px;
+	padding-top: 2%;
+}
+
+.hot-offers p strong {
+	color: #ff0000;
+	font-weight: 700;
+}
+
+.hot-offers td{
+	font-size: 45px;
+	padding-left: 3%;
+}
+
+.hot-offers thead td{
+	background-color: #c40009;
+	color: #ffffff;
+}
+
+.hot-offers thead td:first-of-type{
+	border-right: 4px solid #ffffff;
+}
+
+.table-dark-grey{
+	background-color: #96969a !important;
+	color: #ffffff;
+}
+
+.table-dark-grey td:first-of-type{
+	border-right: 4px solid #ffffff;
+}
+
+.table-grey {
+	background-color: #ecedee;
+	color: #000000;
+}
+
+.table-grey td:first-of-type{
+	border-right: 4px solid #ffffff;
+}
+
+.hot-offers .btn {
+	color: #ffffff;
+	background-color: #ff0000;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-top: 3%;	
+	margin-bottom: 5%;
+	padding: 5px 15px;
+}
+
+/* formats */
+
+.formats h2{
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 70px;
+	text-transform: uppercase;
+	border: 10px solid #ff0000;
+	padding: 50px;
+    padding-top: 65px;
+}
+
+.formats h2 span{
+	font-weight: 400;
+	font-size: 61px;
+}
+
+.formats .row:first-of-type h3{
+	font-weight: 700;
+	font-size: 72px;
+	padding: 10% 0;
+}
+
+.formats p{
+	font-size: 60px;
+	line-height: 80px;
+	padding: 5% 0;
+}
+
+.formats p span{
+	font-weight: 700;
+}
+
+.formats .row:first-of-type img:first-of-type{
+	padding-top: 30%;
+	padding-bottom: 15%;
+}
+
+hr{
+	border-top: 5px solid #000000;
+	margin-top: 4rem;
+}
+
+.formats h3{
+	font-weight: 700;
+	font-size: 72px;
+	padding-bottom: 10%;
+}
+
+.red-rectangle{
+	padding-top:20% !important;
+	padding-bottom: 5% !important;
+}
+
+.formats img:first-of-type{
+	padding-top: 10%;
+	padding-bottom: 15%;
+}
+
+/* success-stories */
+
+.square-success-block{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    padding: 145px 252px;
+    border: 10px solid red;
+    z-index: 1;
+}
+
+.success-stories{
+	padding-top: 5%;
+}
+
+.success-stories h2{
+	font-weight: 400;
+	font-size: 69px;
+	line-height: 80px;
+	text-transform: uppercase;
+	padding: 33px;
+    padding-top: 65px;
+}
+
+.success-stories h2 span{
+	font-weight: 700;
+	font-size: 80px;
+}
+
+.success-stories p{
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.success-stories p span{
+	color: #7f7e83;
+}
+
+.back {
+	padding-right: 10%;
+	padding-top: 5%;
+}
+
+.back img{
+	padding-bottom: 8px;
+}
+
+.back span{
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+	color: #7f7e83;
+}
+
+.forward span{
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+	color: #ff0101;
+}
+
+.forward img{
+	padding-bottom: 8px;
+}
+
+.success-stories .description{
+	padding-left: 3%;
+	padding-top: 5%;
+}
+
+.btns-navigation{
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+.success-stories a:hover{
+text-decoration: none;
+}
+
+/* footer */
+
+footer{
+    background-image:url(../images/bg-header.png);
+    background-size: cover;
+    color: #fff;
+}
+
+footer strong {
+    font-weight: 800;
+    font-size: 34px;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 21px;
+    text-transform: uppercase;
+	text-decoration: underline;
+}
+
+footer a{
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+footer a:hover{
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+footer .logo{
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%
+}
+
+footer h2{
+	font-weight: 700;
+	font-size: 120px;
+	text-transform: uppercase;
+	padding: 5% 0;
+}
+
+footer h3{
+	font-weight: 400;
+	font-size: 48px;
+	text-transform: uppercase;
+	padding-bottom: 3%;
+}
+
+footer .btn {
+	color: #ffffff;
+	background-color: #ff0000;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 42px;	
+	margin-bottom: 8%;
+	padding: 15px 40px;
+}
+
+
+
+
+.square-rotation-45 {
+ position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 28px;
+    left: -17px;
+    background: red;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+    
+
+
+
+
+
+
+
+
