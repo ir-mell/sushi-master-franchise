@@ -905,6 +905,14 @@ footer .btn {
 		padding-bottom: 15%;
 	}
 
+	.logo .text-right { 
+		text-align: center !important;
+	}
+
+	.logo .text-left { 
+		text-align: center !important;
+	}
+
 	.formats h2{
 		font-size: 5rem;
 		padding: 65px 0 45px;
