@@ -163,27 +163,160 @@ header h3{
 	background-color: #e0e0e0;
 }
 
-.advantages .red-color p{
-	margin: 0;
-	color: #ffffff;
-	font-weight: 700;
-	font-size: 36px;
+
+
+@media (min-width: 576px) {
+
+	.advantages .red-color p{
+		margin: 0;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 16px;
+	}
+
+	.advantages .red-color p span{
+		font-size: 40px;
+	}
+
+	.advantages .cities{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .countries{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .grey-color p{
+		margin: 0;
+		color: #000000;
+		font-weight: 700;
+		font-size: 17px;
+		padding: 13px;
+	}
+
+	.advantages .grey-color p span{
+		font-size: 32px;
+	}
+
 }
 
-.advantages .red-color p span{
-	font-size: 72px;
+@media (min-width: 768px) {
+
+	.advantages .red-color p{
+		margin: 0;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 21px;
+	}
+
+	.advantages .red-color p span{
+		font-size: 52px;
+	}
+
+	.advantages .cities{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .countries{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .grey-color p{
+		margin: 0;
+		color: #000000;
+		font-weight: 700;
+		font-size: 17px;
+		padding: 27px;
+	}
+
+	.advantages .grey-color p span{
+		font-size: 41px;
+	}
+
 }
 
-.advantages .cities{
-	line-height: 40px;
-    padding-top: 10% !important;
-	font-size: 30px !important;
+@media (min-width: 992px) {
+
+	.advantages .red-color p{
+		margin: 0;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 21px;
+	}
+
+	.advantages .red-color p span{
+		font-size: 65px;
+	}
+
+	.advantages .cities{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .countries{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .grey-color p{
+		margin: 0;
+		color: #000000;
+		font-weight: 700;
+		font-size: 27px;
+		padding: 27px;
+	}
+
+	.advantages .grey-color p span{
+		font-size: 59px;
+	}
 }
 
-.advantages .countries{
-	line-height: 40px;
-    padding-top: 10% !important;
-	font-size: 30px !important;
+@media (min-width: 1200px) {
+	.advantages .red-color p{
+		margin: 0;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 36px;
+	}
+
+	.advantages .red-color p span{
+		font-size: 72px;
+	}
+
+	.advantages .cities{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .countries{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .grey-color p{
+		margin: 0;
+		color: #000000;
+		font-weight: 700;
+		font-size: 36px;
+		padding: 27px;
+	}
+
+	.advantages .grey-color p span{
+		font-size: 72px;
+	}
+ 
 }
 
 .advantages .countries-list{
@@ -197,17 +330,7 @@ header h3{
 	padding-bottom: 26%;
 	padding-top: 26%;
 }
-.advantages .grey-color p{
-	margin: 0;
-	color: #000000;
-	font-weight: 700;
-	font-size: 36px;
-	padding: 27px;
-}
 
-.advantages .grey-color p span{
-	font-size: 72px;
-}
 
 .underline {
 	text-decoration: underline;
@@ -251,6 +374,7 @@ header h3{
     left: 17px;
     padding: 145px 227px;
     border: 10px solid red;
+    z-index: -1;
 }
 
 .reasons h2{
