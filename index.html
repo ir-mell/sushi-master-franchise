@@ -446,6 +446,8 @@
 		</div>
 	</footer>
 
+	<button onclick="topFunction()" id="btnToTop" title="Вернуться наверх">Наверх</button>
+
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -474,7 +476,24 @@
 	    	} 
 		
 		});
-});
+		
+	});
+
+	window.onscroll = function() {scrollFunction()};
+		
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("btnToTop").style.display = "block";
+	    } else {
+	        document.getElementById("btnToTop").style.display = "none";
+	    }
+	}
+
+	function topFunction() {
+	    $('html, body').animate({
+			scrollTop: "0px"
+		}, 800);
+	}
 
 	</script>
 </body>
