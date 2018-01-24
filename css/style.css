@@ -1,6 +1,6 @@
 body {
     font-family: "GothamPro";
-    font-size: 16px;
+    font-size: 1 rem;
 	color: #161919;
 }
 
@@ -58,18 +58,18 @@ header{
 
 header strong {
     font-weight: 800;
-    font-size: 34px;
+    font-size: 2.125rem;
 }
 
 header p{
     font-weight: 400;
-    font-size: 21px;
+    font-size: 1.3125rem;
     text-transform: uppercase;
 	text-decoration: underline;
 }
 
 .nav-link{
-	padding: 16px 0 0 0;
+	padding: 1rem 0 0 0;
 }
 
 header a{
@@ -100,7 +100,7 @@ header .navigation {
 header h3{
 	font-weight: 300;
 	text-transform: uppercase;
-	font-size: 28px;
+	font-size: 1.75rem;
 	background-color: #fff;
 	color: #161919;
 	margin-top: 5%;
@@ -116,7 +116,7 @@ header h3{
 
 .business-under-brand h2{
 	font-weight: 400;
-	font-size: 80px;
+	font-size: 5rem;
 	text-transform: uppercase;
 	padding-top: 5%;
 }
@@ -135,7 +135,7 @@ header h3{
 }
 
 .business-under-brand p{
-	font-size:34px;
+	font-size:2.125rem;
 	text-transform: uppercase;
 }
 
@@ -171,35 +171,35 @@ header h3{
 		margin: 0;
 		color: #ffffff;
 		font-weight: 700;
-		font-size: 16px;
+		font-size: 1rem;
 	}
 
 	.advantages .red-color p span{
-		font-size: 40px;
+		font-size: 2.5rem;
 	}
 
 	.advantages .cities{
-		line-height: 40px;
+		line-height: 2.5rem;
 	    padding-top: 10% !important;
-		font-size: 30px !important;
+		font-size: 1.875rem !important;
 	}
 
 	.advantages .countries{
-		line-height: 40px;
+		line-height: 2.5rem;
 	    padding-top: 10% !important;
-		font-size: 30px !important;
+		font-size: 1.875rem !important;
 	}
 
 	.advantages .grey-color p{
 		margin: 0;
 		color: #000000;
 		font-weight: 700;
-		font-size: 17px;
-		padding: 13px;
+		font-size: 1.0625rem;
+		padding: 0.8125rem;
 	}
 
 	.advantages .grey-color p span{
-		font-size: 32px;
+		font-size: 2rem;
 	}
 
 }
@@ -344,7 +344,7 @@ header h3{
 
 .video h2{
 	font-weight: 400;
-	font-size: 48px;
+	font-size: 3rem;
 	text-transform: uppercase;
 	padding-top: 8%;
 	padding-bottom: 3%;
@@ -360,7 +360,7 @@ header h3{
 	background-color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 42px;
+	font-size: 2.625rem;
 	margin-top: 3%;	
 	margin-bottom: 16%;
 	padding: 5px 15px;
@@ -379,26 +379,26 @@ header h3{
 
 .reasons h2{
 	font-weight: 700;
-    font-size: 68px;
+    font-size: 2.625rem;
     margin: 0;
-    line-height: 40px;
+    line-height: 2.5rem;
     padding-left: 17%;
     padding-top: 8%;
 }
 
 .reasons h2 span{
 	font-weight: 400;
-	font-size: 37px;
+	font-size: 2.3125rem;
 }
 
 .reasons h2 strong{
 	font-weight: 700;
-	font-size: 41px;
+	font-size: 2.5625rem;
 }
 
 .reasons h4{
 	text-transform: uppercase;
-	font-size: 36px;
+	font-size: 2.25rem;
 	font-weight: 700;
 	margin: 0;
 }
@@ -413,8 +413,8 @@ header h3{
 
 .reasons p{
 	font-variant: small-caps;
-	font-size: 24px;
-	line-height: 28px;
+	font-size: 1.5rem;
+	line-height: 1.75rem;
 }
 
 .bg-picture-2 {
@@ -456,7 +456,7 @@ header h3{
 }
 
 .hot-offers h2{
-    font-size: 60px;
+    font-size: 3.75rem;
 	text-transform: uppercase;
 	font-weight: 700;
 	padding-top: 5%;
@@ -464,7 +464,7 @@ header h3{
 
 .hot-offers p{
 	font-variant: small-caps;
-	font-size: 30px;
+	font-size: 1.875rem;
 	padding-top: 2%;
 }
 
@@ -474,7 +474,7 @@ header h3{
 }
 
 .hot-offers td{
-	font-size: 45px;
+	font-size: 2.8125rem;
 	padding-left: 3%;
 }
 
@@ -509,7 +509,7 @@ header h3{
 	color: #ffffff;
 	background-color: #ff0000;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 1.875rem;
 	margin-top: 3%;	
 	margin-bottom: 5%;
 	padding: 5px 15px;
@@ -519,8 +519,8 @@ header h3{
 
 .formats h2{
 	font-weight: 700;
-	font-size: 100px;
-	line-height: 70px;
+	font-size: 6.25rem;
+	line-height: 4.375rem;
 	text-transform: uppercase;
 	border: 10px solid #ff0000;
 	padding: 50px;
@@ -529,18 +529,18 @@ header h3{
 
 .formats h2 span{
 	font-weight: 400;
-	font-size: 61px;
+	font-size: 3.8125rem;
 }
 
 .formats .row:first-of-type h3{
 	font-weight: 700;
-	font-size: 72px;
+	font-size: 4.5rem;
 	padding: 10% 0;
 }
 
 .formats p{
-	font-size: 60px;
-	line-height: 80px;
+	font-size: 3.75rem;
+	line-height: 5rem;
 	padding: 5% 0;
 }
 
@@ -560,7 +560,7 @@ hr{
 
 .formats h3{
 	font-weight: 700;
-	font-size: 72px;
+	font-size: 4.5rem;
 	padding-bottom: 10%;
 }
 
@@ -591,8 +591,8 @@ hr{
 
 .success-stories h2{
 	font-weight: 400;
-	font-size: 69px;
-	line-height: 80px;
+	font-size: 4.3125rem;
+	line-height: 5rem;
 	text-transform: uppercase;
 	padding: 33px;
     padding-top: 65px;
@@ -600,12 +600,12 @@ hr{
 
 .success-stories h2 span{
 	font-weight: 700;
-	font-size: 80px;
+	font-size: 5rem;
 }
 
 .success-stories p{
 	text-transform: uppercase;
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: 700;
 }
 
@@ -624,14 +624,14 @@ hr{
 
 .back span{
 	text-transform: uppercase;
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: 700;
 	color: #7f7e83;
 }
 
 .forward span{
 	text-transform: uppercase;
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: 700;
 	color: #ff0101;
 }
@@ -664,12 +664,12 @@ footer{
 
 footer strong {
     font-weight: 800;
-    font-size: 34px;
+    font-size: 2.125rem;
 }
 
 footer p{
     font-weight: 400;
-    font-size: 21px;
+    font-size: 1.3125rem;
     text-transform: uppercase;
 	text-decoration: underline;
 }
@@ -694,14 +694,14 @@ footer .logo{
 
 footer h2{
 	font-weight: 700;
-	font-size: 120px;
+	font-size: 7.5rem;
 	text-transform: uppercase;
 	padding: 5% 0;
 }
 
 footer h3{
 	font-weight: 400;
-	font-size: 48px;
+	font-size: 3rem;
 	text-transform: uppercase;
 	padding-bottom: 3%;
 }
@@ -711,7 +711,7 @@ footer .btn {
 	background-color: #ff0000;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 42px;	
+	font-size: 2.625rem;	
 	margin-bottom: 8%;
 	padding: 15px 40px;
 }
