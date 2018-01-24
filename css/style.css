@@ -163,9 +163,11 @@ header h3{
 	background-color: #e0e0e0;
 }
 
-
-
 @media (min-width: 576px) {
+
+	.business-under-brand h2{
+		font-size: 3rem;
+	}
 
 	.advantages .red-color p{
 		margin: 0;
@@ -716,11 +718,8 @@ footer .btn {
 	padding: 15px 40px;
 }
 
-
-
-
 .square-rotation-45 {
- position: absolute;
+ 	position: absolute;
     width: 35px;
     height: 35px;
     top: 28px;
@@ -733,6 +732,22 @@ footer .btn {
     transform: rotate(45deg);
 }
     
+@media (max-width: 767px) {
+	.square-rotation-45 {
+	 	position: absolute;
+	    width: 25px;
+	    height: 25px;
+	    top: 20px;
+	    left: -11px;
+	    background: red;
+	    -webkit-transform: rotate(45deg);
+	    -moz-transform: rotate(45deg);
+	    -o-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	}
+}
+
 
 #btnToTop {
     display: none; 
@@ -754,6 +769,181 @@ footer .btn {
 }
 
 
+@media (max-width: 575px) { 
+
+	nav{
+		padding-bottom: 15%;
+	}
+
+	.business-under-brand h2{
+		font-size: 3rem;
+	}
+
+	.advantages .red-color p{
+		margin: 0;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 0.8rem;
+	}
+
+	.advantages .red-color p span{
+		font-size: 2.4rem;
+	}
+
+	.advantages .cities{
+		line-height: 2.5rem;
+	    padding-top: 10% !important;
+		font-size: 1.875rem !important;
+	}
+
+	.advantages .countries{
+		line-height: 2.5rem;
+	    padding-top: 10% !important;
+		font-size: 1.875rem !important;
+	}
+
+	.advantages .grey-color p{
+		margin: 0;
+		color: #000000;
+		font-weight: 700;
+		font-size: 0.6rem;
+		padding: 0.53rem;
+	}
+
+	.advantages .grey-color p span{
+		font-size: 2rem;
+	}
+
+	.video .btn{
+		font-size: 1.625rem;
+	}
+
+	.atmosphere {
+	    padding-top: 28%;
+	    padding-bottom: 0%;
+	}
+
+	.atmosphere img{
+		padding: 10%;
+	}
+
+	.demand img{
+		padding: 10%;
+	}
+
+	.square-block{
+	    top: -25px;
+	    left: 31px;
+	    padding: 115px 180px;
+	}
+
+	.hot-offers h2{
+		font-size: 2.75rem;
+	}
+
+	.hot-offers td{
+		font-size: 1.4rem;
+	}
+
+	.hot-offers .btn{
+		font-size: 1.03rem;
+	}
+
+	.formats h2{
+		font-size: 5rem;
+		padding: 65px 0 45px;
+	}
+
+	.formats h2 span{
+		font-size: 3.3rem;
+	}
+
+	.formats .row:first-of-type h3 {
+	    font-size: 3.5rem;
+	}
+
+	.formats h3{
+		font-size: 3.5rem;
+	}
+
+	.formats p {
+	    font-size: 1.74rem;
+	    line-height: 2.5rem;
+	    padding: 5% 0;
+	}
+
+	.success-stories h2{
+		font-size: 3.3125rem;
+		padding: 57px 47px 70px;
+	}
+
+	.success-stories h2 span {
+	    font-size: 4rem;
+	}
+
+	.square-success-block{
+		position: absolute;
+	    top: 10px;
+	    left: 16px;
+	    padding: 114px 179px;
+	    border: 10px solid red;
+	    z-index: 1;
+	}
+
+	footer h2{
+		font-size: 3.5rem;
+	}
+	footer .btn{
+		font-size: 1.5rem;
+	}
+}
+
+
+@media (max-width: 767px) { 
+	
+	nav{
+		padding-bottom: 15%;
+	}
+
+	.formats h2{
+		font-size: 5rem;
+		padding: 65px 0 45px;
+	}
+
+	.formats h2 span{
+		font-size: 3.3rem;
+	}
+
+	.formats .row:first-of-type h3 {
+	    font-size: 3.5rem;
+	}
+
+	.formats h3{
+		font-size: 3.5rem;
+	}
+
+	.formats p {
+	    font-size: 1.74rem;
+	    line-height: 2.5rem;
+	    padding: 5% 0;
+	}
+
+	.hot-offers td{
+		font-size: 1.4rem;
+	}
+
+	.hot-offers .btn{
+		font-size: 1.37rem;
+	}
+
+	footer h2{
+		font-size: 3.5rem;
+	}
+	footer .btn{
+		font-size: 1.5rem;
+	}
+
+}
 
 
 
