@@ -87,14 +87,31 @@ header a:hover{
 header .logo{
 	padding-top: 5%;
 	padding-left: 5%;
-	padding-right: 5%
+	padding-right: 5%;
+}
+
+header .logo a{
+	font-size: 1rem;
+}
+
+header .logo .btn{
+	padding: 15px 12px;
+}
+
+header .btn{
+	color: #ffffff;
+    background-color: #ff0000;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 8%;
+    padding: 15px 40px;
 }
 
 header .navigation {
 	padding-top: 8%;
 	padding-bottom: 10%;
 	padding-left: 5%;
-	padding-right: 5%
+	padding-right: 5%;
 }
 
 header h3{
@@ -694,6 +711,10 @@ footer .logo{
 	padding-right: 5%
 }
 
+footer .logo button{
+	font-size: 1rem;
+}
+
 footer h2{
 	font-weight: 700;
 	font-size: 7.5rem;
@@ -716,6 +737,14 @@ footer .btn {
 	font-size: 2.625rem;	
 	margin-bottom: 8%;
 	padding: 15px 40px;
+}
+
+footer .logo a{
+	font-size: 1rem;
+}
+
+footer .logo .btn{
+	padding: 15px 12px;
 }
 
 .square-rotation-45 {
@@ -774,6 +803,15 @@ footer .btn {
 	nav{
 		padding-bottom: 15%;
 	}
+
+	header .logo a{
+		font-size: 1rem;
+	}
+
+	header .logo .btn{
+		padding: 15px;
+	}
+
 
 	.business-under-brand h2{
 		font-size: 3rem;
@@ -896,6 +934,14 @@ footer .btn {
 	footer .btn{
 		font-size: 1.5rem;
 	}
+
+	footer .logo a{
+		font-size: 1rem;
+	}
+
+	footer .logo .btn{
+		padding: 15px;
+	}
 }
 
 
@@ -951,12 +997,29 @@ footer .btn {
 		font-size: 1.5rem;
 	}
 
+	footer .logo a{
+		font-size: 1rem;
+	}
+
+	footer .logo .btn{
+		padding: 15px;
+	}
+
 }
 
 @media (max-width: 385px) {
 
 	nav{
 		padding-bottom: 15%;
+	}
+
+	header .logo a{
+		font-size: 0.7rem;
+    	font-weight: 500;
+	}
+
+	header .logo .btn{
+		padding: 7px 15px;
 	}
 
 	.business-under-brand h2{
@@ -1090,6 +1153,16 @@ footer .btn {
 	footer .btn{
 		font-size: 1rem;
 	}
+
+	footer .logo a{
+		font-size: 1rem;
+	}
+
+	footer .logo .btn{
+		padding: 15px;
+	}
+
+	
 
 }
 
