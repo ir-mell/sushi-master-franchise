@@ -1,6 +1,6 @@
 body {
     font-family: "GothamPro";
-    font-size: 1 rem;
+    font-size: 1rem;
 	color: #161919;
 }
 
@@ -95,7 +95,7 @@ header .logo a{
 }
 
 header .logo .btn{
-	padding: 15px 12px;
+	padding: 0.9375rem 0.75rem;
 }
 
 header .btn{
@@ -172,177 +172,13 @@ header h3{
     background-color: #ff0000;
 }
 
-.black-color{
-	background-color: #000000;
-}
-
 .grey-color {
 	background-color: #e0e0e0;
-}
-
-@media (min-width: 576px) {
-
-	.business-under-brand h2{
-		font-size: 3rem;
-	}
-
-	.advantages .red-color p{
-		margin: 0;
-		color: #ffffff;
-		font-weight: 700;
-		font-size: 1rem;
-	}
-
-	.advantages .red-color p span{
-		font-size: 2.5rem;
-	}
-
-	.advantages .cities{
-		line-height: 2.5rem;
-	    padding-top: 10% !important;
-		font-size: 1.875rem !important;
-	}
-
-	.advantages .countries{
-		line-height: 2.5rem;
-	    padding-top: 10% !important;
-		font-size: 1.875rem !important;
-	}
-
-	.advantages .grey-color p{
-		margin: 0;
-		color: #000000;
-		font-weight: 700;
-		font-size: 1.0625rem;
-		padding: 0.8125rem;
-	}
-
-	.advantages .grey-color p span{
-		font-size: 2rem;
-	}
-
-}
-
-@media (min-width: 768px) {
-
-	.advantages .red-color p{
-		margin: 0;
-		color: #ffffff;
-		font-weight: 700;
-		font-size: 21px;
-	}
-
-	.advantages .red-color p span{
-		font-size: 52px;
-	}
-
-	.advantages .cities{
-		line-height: 40px;
-	    padding-top: 10% !important;
-		font-size: 30px !important;
-	}
-
-	.advantages .countries{
-		line-height: 40px;
-	    padding-top: 10% !important;
-		font-size: 30px !important;
-	}
-
-	.advantages .grey-color p{
-		margin: 0;
-		color: #000000;
-		font-weight: 700;
-		font-size: 17px;
-		padding: 27px;
-	}
-
-	.advantages .grey-color p span{
-		font-size: 41px;
-	}
-
-}
-
-@media (min-width: 992px) {
-
-	.advantages .red-color p{
-		margin: 0;
-		color: #ffffff;
-		font-weight: 700;
-		font-size: 21px;
-	}
-
-	.advantages .red-color p span{
-		font-size: 65px;
-	}
-
-	.advantages .cities{
-		line-height: 40px;
-	    padding-top: 10% !important;
-		font-size: 30px !important;
-	}
-
-	.advantages .countries{
-		line-height: 40px;
-	    padding-top: 10% !important;
-		font-size: 30px !important;
-	}
-
-	.advantages .grey-color p{
-		margin: 0;
-		color: #000000;
-		font-weight: 700;
-		font-size: 27px;
-		padding: 27px;
-	}
-
-	.advantages .grey-color p span{
-		font-size: 59px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.advantages .red-color p{
-		margin: 0;
-		color: #ffffff;
-		font-weight: 700;
-		font-size: 36px;
-	}
-
-	.advantages .red-color p span{
-		font-size: 72px;
-	}
-
-	.advantages .cities{
-		line-height: 40px;
-	    padding-top: 10% !important;
-		font-size: 30px !important;
-	}
-
-	.advantages .countries{
-		line-height: 40px;
-	    padding-top: 10% !important;
-		font-size: 30px !important;
-	}
-
-	.advantages .grey-color p{
-		margin: 0;
-		color: #000000;
-		font-weight: 700;
-		font-size: 33.5px;
-		padding: 27px;
-	}
-
-	.advantages .grey-color p span{
-		font-size: 72px;
-	}
- 
 }
 
 .advantages .countries-list{
 	padding-top: 10%;
 }
-
-
 
 .advantages .black-color {
 	padding: 23%;
@@ -673,8 +509,6 @@ hr{
 text-decoration: none;
 }
 
-/* footer */
-
 footer{
     background-image:url(../images/bg-header.png);
     background-size: cover;
@@ -798,216 +632,13 @@ footer .logo .btn{
     background-color: #555; 
 }
 
-@media (min-width: 386px) and (max-width: 766px) { 
-
-	nav{
-		padding-bottom: 15%;
-	}
-
-	header .logo a{
-		font-size: 1rem;
-	}
-
-	header .logo .btn{
-		padding: 15px;
-	}
-
-
-	.business-under-brand h2{
-		font-size: 3rem;
-	}
-
-	.advantages .red-color p{
-		margin: 0;
-		color: #ffffff;
-		font-weight: 700;
-		font-size: 0.8rem;
-	}
-
-	.advantages .red-color p span{
-		font-size: 2.4rem;
-	}
-
-	.advantages .cities{
-		line-height: 2.5rem;
-	    padding-top: 10% !important;
-		font-size: 1.875rem !important;
-	}
-
-	.advantages .countries{
-		line-height: 2.5rem;
-	    padding-top: 10% !important;
-		font-size: 1.875rem !important;
-	}
-
-	.advantages .grey-color p{
-		margin: 0;
-		color: #000000;
-		font-weight: 700;
-		font-size: 0.6rem;
-		padding: 0.53rem;
-	}
-
-	.advantages .grey-color p span{
-		font-size: 2rem;
-	}
-
-	.video .btn{
-		font-size: 1.625rem;
-	}
-
-	.atmosphere {
-	    padding-top: 28%;
-	    padding-bottom: 0%;
-	}
-
-	.atmosphere img{
-		padding: 10%;
-	}
-
-	.demand img{
-		padding: 10%;
-	}
-
-	.square-block{
-	    top: -25px;
-	    left: 31px;
-	    padding: 115px 180px;
-	}
-
-	.hot-offers h2{
-		font-size: 2.75rem;
-	}
-
-	.hot-offers td{
-		font-size: 1.4rem;
-	}
-
-	.hot-offers .btn{
-		font-size: 1.03rem;
-	}
-
-	.formats h2{
-		font-size: 5rem;
-		padding: 65px 0 45px;
-	}
-
-	.formats h2 span{
-		font-size: 3.3rem;
-	}
-
-	.formats .row:first-of-type h3 {
-	    font-size: 3.5rem;
-	}
-
-	.formats h3{
-		font-size: 3.5rem;
-	}
-
-	.formats p {
-	    font-size: 1.74rem;
-	    line-height: 2.5rem;
-	    padding: 5% 0;
-	}
-
-	.success-stories h2{
-		font-size: 3.3125rem;
-		padding: 57px 47px 70px;
-	}
-
-	.success-stories h2 span {
-	    font-size: 4rem;
-	}
-
-	.square-success-block{
-		position: absolute;
-	    top: 10px;
-	    left: 16px;
-	    padding: 114px 179px;
-	    border: 10px solid red;
-	    z-index: 1;
-	}
-
-	footer h2{
-		font-size: 3.5rem;
-	}
-	footer .btn{
-		font-size: 1.5rem;
-	}
-
-	footer .logo a{
-		font-size: 1rem;
-	}
-
-	footer .logo .btn{
-		padding: 15px;
-	}
-}
-
-
-@media (max-width: 767px) { 
-	
-	nav{
-		padding-bottom: 15%;
-	}
-
-	.logo .text-right { 
-		text-align: center !important;
-	}
-
-	.logo .text-left { 
-		text-align: center !important;
-	}
-
-	.formats h2{
-		font-size: 5rem;
-		padding: 65px 0 45px;
-	}
-
-	.formats h2 span{
-		font-size: 3.3rem;
-	}
-
-	.formats .row:first-of-type h3 {
-	    font-size: 3.5rem;
-	}
-
-	.formats h3{
-		font-size: 3.5rem;
-	}
-
-	.formats p {
-	    font-size: 1.74rem;
-	    line-height: 2.5rem;
-	    padding: 5% 0;
-	}
-
-	.hot-offers td{
-		font-size: 1.4rem;
-	}
-
-	.hot-offers .btn{
-		font-size: 1rem;
-	}
-
-	footer h2{
-		font-size: 3.5rem;
-	}
-	footer .btn{
-		font-size: 1.5rem;
-	}
-
-	footer .logo a{
-		font-size: 1rem;
-	}
-
-	footer .logo .btn{
-		padding: 15px;
-	}
-
-}
+/* media */
 
 @media (max-width: 385px) {
+	
+	header .logo .btn{
+	font-size: 10px;
+}
 
 	nav{
 		padding-bottom: 15%;
@@ -1030,22 +661,24 @@ footer .logo .btn{
 		margin: 0;
 		color: #ffffff;
 		font-weight: 700;
-		font-size: 1rem;
+		font-size: 1.2rem;
+		padding-top: 2%;
+		padding-bottom: 2%;
 	}
 
 	.advantages .red-color p span{
-		font-size: 2.4rem;
+		font-size: 2rem;
 	}
 
 	.advantages .cities{
-		line-height: 2.5rem;
-	    padding-top: 10% !important;
+		line-height: 2rem;
+	    padding-top: 4% !important;
 		font-size: 1.875rem !important;
 	}
 
 	.advantages .countries{
-		line-height: 2.5rem;
-	    padding-top: 10% !important;
+		line-height: 2rem;
+	    padding-top: 4% !important;
 		font-size: 1.875rem !important;
 	}
 
@@ -1053,8 +686,9 @@ footer .logo .btn{
 		margin: 0;
 		color: #000000;
 		font-weight: 700;
-		font-size: 0.6rem;
-		padding: 0.53rem;
+		font-size: 1.2rem;
+		padding-top: 2%;
+		padding-bottom: 2%;
 	}
 
 	.advantages .grey-color p span{
@@ -1160,10 +794,397 @@ footer .logo .btn{
 
 	footer .logo .btn{
 		padding: 15px;
+		font-size: 10px;
 	}
 
 	
 
+}
+
+@media (min-width: 386px) and (max-width: 766px) {
+	
+	header .logo .btn{
+	font-size: 10px;
+}
+
+
+	nav{
+		padding-bottom: 15%;
+	}
+
+	header .logo a{
+		font-size: 1rem;
+	}
+
+	header .logo .btn{
+		padding: 15px;
+	}
+
+
+	.business-under-brand h2{
+		font-size: 3rem;
+	}
+
+	.advantages .red-color p{
+		margin: 0;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 1.5rem;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		
+	}
+
+	.advantages .red-color p span{
+		font-size: 2.4rem;
+	}
+
+	.advantages .cities{
+		line-height: 2rem;
+	    padding-top: 4% !important;
+		font-size: 1.875rem !important;
+	}
+
+	.advantages .countries{
+		line-height: 2rem;
+	    padding-top: 4% !important;
+		font-size: 1.875rem !important;
+	}
+
+	.advantages .grey-color p{
+		margin: 0;
+		color: #000000;
+		font-weight: 700;		
+		font-size: 1.5rem;
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+
+	.advantages .grey-color p span{
+		font-size: 2rem;
+	}
+
+	.video .btn{
+		font-size: 1.625rem;
+	}
+
+	.atmosphere {
+	    padding-top: 28%;
+	    padding-bottom: 0%;
+	}
+
+	.atmosphere img{
+		padding: 10%;
+	}
+
+	.demand img{
+		padding: 10%;
+	}
+
+	.square-block{
+	    top: -25px;
+	    left: 31px;
+	    padding: 115px 180px;
+	}
+
+	.hot-offers h2{
+		font-size: 2.75rem;
+	}
+
+	.hot-offers td{
+		font-size: 1.4rem;
+	}
+
+	.hot-offers .btn{
+		font-size: 1.03rem;
+	}
+
+	.formats h2{
+		font-size: 5rem;
+		padding: 65px 0 45px;
+	}
+
+	.formats h2 span{
+		font-size: 3.3rem;
+	}
+
+	.formats .row:first-of-type h3 {
+	    font-size: 3.5rem;
+	}
+
+	.formats h3{
+		font-size: 3.5rem;
+	}
+
+	.formats p {
+	    font-size: 1.74rem;
+	    line-height: 2.5rem;
+	    padding: 5% 0;
+	}
+
+	.success-stories h2{
+		font-size: 3.3125rem;
+		padding: 57px 47px 70px;
+	}
+
+	.success-stories h2 span {
+	    font-size: 4rem;
+	}
+
+	.square-success-block{
+		position: absolute;
+	    top: 10px;
+	    left: 16px;
+	    padding: 114px 179px;
+	    border: 10px solid red;
+	    z-index: 1;
+	}
+
+	footer h2{
+		font-size: 3.5rem;
+	}
+	footer .btn{
+		font-size: 1.5rem;
+	}
+
+	footer .logo a{
+		font-size: 1rem;
+	}
+
+	footer .logo .btn{
+		padding: 15px;
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 576px) {
+
+	.business-under-brand h2{
+		font-size: 3rem;
+	}
+
+	.advantages .red-color p{
+		margin: 0;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 17px;
+		padding-bottom: 1.375rem;
+	}
+
+	.advantages .red-color p span{
+		font-size: 2rem;
+	}
+
+	.advantages .cities{
+		line-height: 1.8rem;
+	    padding-top: 10% !important;
+		font-size: 1.3rem !important;
+	}
+
+	.advantages .countries{
+		line-height: 1.8rem;
+	    padding-top: 10% !important;
+		font-size: 1.3rem !important;
+	}
+
+	.advantages .grey-color p{
+		margin: 0;
+		color: #000000;
+		font-weight: 700;
+		font-size: 1.0625rem;
+		padding: 0.8125rem;
+	}
+
+	.advantages .grey-color p span{
+		font-size: 2rem;
+	}
+
+}
+
+@media (max-width: 767px) { 
+	
+	header .logo .btn{
+	font-size: 13px;
+}
+	
+	nav{
+		padding-bottom: 15%;
+	}
+
+	.logo .text-right { 
+		text-align: center !important;
+	}
+
+	.logo .text-left { 
+		text-align: center !important;
+	}
+
+	.formats h2{
+		font-size: 5rem;
+		padding: 65px 0 45px;
+	}
+
+	.formats h2 span{
+		font-size: 3.3rem;
+	}
+
+	.formats .row:first-of-type h3 {
+	    font-size: 3.5rem;
+	}
+
+	.formats h3{
+		font-size: 3.5rem;
+	}
+
+	.formats p {
+	    font-size: 1.74rem;
+	    line-height: 2.5rem;
+	    padding: 5% 0;
+	}
+
+	.hot-offers td{
+		font-size: 1.4rem;
+	}
+
+	.hot-offers .btn{
+		font-size: 1rem;
+	}
+
+	footer h2{
+		font-size: 3.5rem;
+	}
+	footer .btn{
+		font-size: 1.5rem;
+	}
+
+	footer .logo a{
+		font-size: 1rem;
+	}
+
+	footer .logo .btn{
+		padding: 15px;
+		font-size: 13px;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	.advantages .red-color p{
+		margin: 0;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 19px;
+		padding-bottom: 1.7rem;
+    padding-top: 1rem;
+	}
+
+	.advantages .red-color p span{
+		font-size: 44px;
+	}
+
+	.advantages .cities{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .countries{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .grey-color p{
+		margin: 0;
+		color: #000000;
+		font-weight: 700;
+		font-size: 17px;
+		padding: 27px;
+	}
+
+	.advantages .grey-color p span{
+		font-size: 41px;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.advantages .red-color p{
+		margin: 0;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 1.6875rem;
+		padding-bottom: 1.8rem;
+	}
+
+	.advantages .red-color p span{
+		font-size: 65px;
+	}
+
+	.advantages .cities{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .countries{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .grey-color p{
+		margin: 0;
+		color: #000000;
+		font-weight: 700;
+		font-size: 27px;
+		padding: 27px;
+	}
+
+	.advantages .grey-color p span{
+		font-size: 59px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.advantages .red-color p{
+		margin: 0;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 36px;
+		padding-bottom: 1.9rem;
+	}
+
+	.advantages .red-color p span{
+		font-size: 72px;
+	}
+
+	.advantages .cities{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .countries{
+		line-height: 40px;
+	    padding-top: 10% !important;
+		font-size: 30px !important;
+	}
+
+	.advantages .grey-color p{
+		margin: 0;
+		color: #000000;
+		font-weight: 700;
+		font-size: 33.5px;
+		padding: 27px;
+	}
+
+	.advantages .grey-color p span{
+		font-size: 72px;
+	}
+ 
 }
 
 
