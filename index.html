@@ -97,7 +97,9 @@
 					</div>
 					
 					<div class="col-12 col-sm-9 col-md-9 padding-none">
-						<img src="images/map.png" class="img-fluid" alt="Responsive image">
+						<!--<img src="images/map.png" class="img-fluid" alt="Responsive image">-->
+						
+						<div id="mymap"></div>
 					</div>
 					
 					<div class="col-12 col-sm-3 col-md-3 padding-none red-color">
@@ -514,6 +516,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" crossorigin="anonymous"></script>
 	<script src="js/wow.js"></script>
+	 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
+    </script>
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A976cc77d6e20ba3a30c3258f4b79d58bdd2aec9a3a6f2029a74d87ca6797f82c&amp;width=100%25&amp;height=540&amp;id=mymap"></script>
 	<script>
 
 	new WOW().init();
@@ -581,8 +586,27 @@
 			alert("Здесь должна располагаться контактная форма. На мобильных устройствах будет происходить звонок по указанному на сайте номеру телефона.")
 		}
 	}
+	
+
+    //var myMap = document.getElementById("mymap");
+	
+	//console.log(myMap);
+	ymaps.ready(init);
+		
+		function init(){
+	var myMap = new ymaps.Map('mymap', {
+            center: [55.751574, 37.573856],
+            zoom: 9,
+            controls: []
+        }, {
+            searchControlProvider: 'yandex#search'
+        });
+			
+		}
 
 	</script>
+	
+	
 </body>
 
 </html>
