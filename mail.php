@@ -3,11 +3,11 @@
 header("Access-Control-Allow-Origin: *");
 
 try{
-	$to = "piskunovigorm@gmail.com";
+	$to = "support@sushi-master-franchise.com";
 	$subject = $_POST['clientName']." - звонок Sushi Master Franchise";
 
-	$txt = "Клиент: ".$_POST['clientName']."\r\n".
-		   "Город: ".$_POST['clientCity']."\r\n".
+	$txt = "Клиент: ".$_POST['clientName']."<br>".
+		   "Город: ".$_POST['clientCity']."<br>".
 		   "Телефон: ".$_POST['clientPhone'];
 
 	$headers = array(
