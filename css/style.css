@@ -563,7 +563,7 @@ footer h3{
 	padding-bottom: 3%;
 }
 
-footer .btn {
+footer .red-btn {
 	color: #ffffff;
 	background-color: #ff0000;
 	text-transform: uppercase;
@@ -579,6 +579,23 @@ footer .logo a{
 
 footer .logo .btn{
 	padding: 15px 12px;
+}
+
+footer .modal{
+	color: #000000;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: rgba(73, 80, 87, 0.55);
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-call {
+   background: #ff0101;
+	color: #ffffff;
 }
 
 .square-rotation-45 {
