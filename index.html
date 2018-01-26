@@ -133,7 +133,7 @@
 							</video>
 						</div>
 						<div class="text-center">
-							<button type="button" class="btn" onclick="contact()">Узнать больше</button>
+							<button type="button" class="btn" onclick="contact();">Узнать больше</button>
 						</div>
 					</div>
 				</div>
@@ -311,7 +311,7 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="text-center">
-							<button type="button" data-target="#callModal" type="button" class="btn" data-toggle="modal" data-whatever="@mdo">Получить детальную информацию</button>
+							<button type="button" type="button" class="btn" onclick="contact();">Получить детальную информацию</button>
 						</div>
 					</div>
 				</div>
@@ -506,7 +506,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="text-center">
-						<button type="button" class="btn red-btn" data-toggle="modal" data-target="#callModal" data-whatever="@mdo">Расчет инвестиций</button>
+						<button type="button" class="btn red-btn" onclick="contact();">Расчет инвестиций</button>
 
 						<div class="modal fade" id="callModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							<div class="modal-dialog" role="document">
@@ -520,25 +520,25 @@
 									</div>
 									
 									<div class="modal-body">
-										<form>
+										<form id="clientForm">
 										
 											<div class="form-group">
-												<input type="text" class="form-control" id="name" placeholder="Имя">
+												<input type="text" class="form-control" id="name" placeholder="Имя" required>
 											</div>
 											
 											<div class="form-group">		
-												<input type="text" class="form-control" id="city" placeholder="Город">
+												<input type="text" class="form-control" id="city" placeholder="Город" required>
 											</div>
 											
 											<div class="form-group">
-												<input type="tel" class="form-control" id="tel" aria-describedby="emailHelp" placeholder="Телефон">
+												<input type="tel" class="form-control" id="tel" aria-describedby="emailHelp" placeholder="Телефон" required>
 											</div>
 											
 										</form>
 									</div>
 									
 									<div class="modal-footer center-align">
-										<button type="button" class="btn btn-call">Перезвоните мне</button>
+										<button type="button" class="btn btn-call" onclick="sendMail();">Перезвоните мне</button>
 									</div>
 									
 								</div>
@@ -643,8 +643,28 @@
 				window.open('tel:88007005716');
 			} else {
 				/*TO DO: Any kind of behavior */
-				alert("Здесь должна располагаться контактная форма. На мобильных устройствах будет происходить звонок по указанному на сайте номеру телефона.")
+				//alert("Здесь должна располагаться контактная форма. На мобильных устройствах будет происходить звонок по указанному на сайте номеру телефона.")
+				$("#callModal").modal();
+
 			}
+		}
+
+		function sendMail(){
+			var mailObj = {
+				"clientName": $("#name").val(),
+				"clientCity": $("#city").val(),
+				"clientPhone": $("#tel").val()
+			};
+			
+			$.post( "mail.php", mailObj , function(data) {
+				data = JSON.parse(data);
+				if(data.status)
+					alert("Спасибо за ваше обращение! Наши специалисты свяжутся с вами.");
+				else
+					alert("Во время отправки сообщения возникла ошибка. Пожалуйста, повторите попытку.");
+
+				$("#callModal").modal("hide");
+			});
 		}
 	</script>
 
