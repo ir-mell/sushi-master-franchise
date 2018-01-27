@@ -7,9 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/slick.css">
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
 
@@ -268,39 +268,39 @@
 							</thead>
 							<tbody>
 								<tr class="table-dark-grey">
-									<td>Россия, г.Воронеж</td>
+									<td data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Площадь 54 м²">Россия, г.Воронеж</td>
 									<td>Food-cort</td>
 								</tr>
 								<tr class="table-grey">
-									<td>Россия, г.Новороссийск</td>
+									<td data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Площадь 67 м²">Россия, г.Новороссийск</td>
 									<td>Стрит и Остров</td>
 								</tr>
 								<tr class="table-dark-grey">
-									<td>Польша, г.Кросно</td>
+									<td data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Площадь 21 м²">Польша, г.Кросно</td>
 									<td>Остров</td>
 								</tr>
 								<tr class="table-grey">
-									<td>Польша, г.Вроцлав</td>
+									<td data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Площадь 52 м²">Польша, г.Вроцлав</td>
 									<td>Стрит</td>
 								</tr>
 								<tr class="table-dark-grey">
-									<td>Польша, г.Ополе</td>
+									<td data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Площадь 63 м²">Польша, г.Ополе</td>
 									<td>Остров</td>
 								</tr>
 								<tr class="table-grey">
-									<td>Польша, г.Острув Велкоп.</td>
+									<td data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Площадь 48 м²">Польша, г.Острув Велкоп.</td>
 									<td>Стрит</td>
 								</tr>
 								<tr class="table-dark-grey">
-									<td>Польша, г.Тыхы</td>
+									<td data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Площадь 37 м²">Польша, г.Тыхы</td>
 									<td>Стрит</td>
 								</tr>
 								<tr class="table-grey">
-									<td>Польша, г.Сталева Воля</td>
+									<td data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Площадь 83 м²">Польша, г.Сталева Воля</td>
 									<td>Стрит</td>
 								</tr>
 								<tr class="table-dark-grey">
-									<td>Польша, г.Краков</td>
+									<td data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Площадь 18 м²">Польша, г.Краков</td>
 									<td>Стрит и Остров</td>
 								</tr>
 							</tbody>
@@ -598,6 +598,8 @@
 				}
 
 			});
+
+			$('[data-toggle="popover"]').popover({ html: true, trigger: "hover"  });
 
 
 			$(".single-story").slick({
