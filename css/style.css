@@ -337,10 +337,18 @@ header h3{
     padding-top: 5%;
 }
 
+.hot-offers-info.special{
+    padding-top: 3%;
+}
+
 .hot-offers-info h3{
     font-size: 48px;
     font-weight: 700;
     margin: 0;
+}
+
+.hot-offers-info.special h3{
+    font-size: 28px;
 }
 
 .hot-offers-info h4 {
@@ -348,10 +356,20 @@ header h3{
     font-weight: 400;
 }
 
+.hot-offers-info.special h4{
+    padding-bottom: 2%;
+}
+
 .hot-offers-info ul{
     font-size: 30px;
     padding-left: 0;
     padding-top: 30px;
+}
+
+.hot-offers-info.special ul{
+    padding-top: 5px;
+    font-size: 21px;
+    line-height: 1.5rem;
 }
 
 .hot-offers-info ul li {
@@ -1147,12 +1165,32 @@ footer .modal form {
     }
     
     .hot-offers-info h3 {
-    font-size: 22px;
+    font-size: 17px;
     }
     
     .hot-offers-info {
         padding-top: 4%;
     }
+    
+     .hot-offers-info.special{
+        padding-top: 1%;
+    }
+
+    .hot-offers-info.special h3{
+        font-size: 16px;
+    }
+
+    .hot-offers-info.special h4{
+        padding-bottom: 5px;
+        margin-bottom: 0;
+    }
+
+    .hot-offers-info.special ul{
+        padding-top: 3px;
+        font-size: 14px;
+        line-height: 0.9rem;
+        margin-bottom: 5px;
+    } 
 
 }
 
@@ -1305,11 +1343,30 @@ footer .modal form {
     }
     
     .hot-offers-info h3 {
-    font-size: 32px;
+    font-size: 24px;
     }
     
     .hot-offers-info {
-        padding-top: 3.5%;
+        padding-top: 4%;
+    }
+    
+    .hot-offers-info.special{
+        padding-top: 2.5%;
+    }
+
+    .hot-offers-info.special h3{
+        font-size: 18px;
+    }
+
+    .hot-offers-info.special h4{
+        padding-bottom: 1%;
+    }
+
+    .hot-offers-info.special ul{
+        padding-top: 0;
+        font-size: 16px;
+        line-height: 1.2rem;
+        margin-bottom: 5px;
     }
 
 }
@@ -1360,6 +1417,26 @@ footer .modal form {
     .hot-offers-info h4 {
     font-size: 30px;
     }
+    
+    .hot-offers-info.special{
+        padding-top: 2.5%;
+    }
+
+    .hot-offers-info.special h3{
+        font-size: 24px;
+    }
+
+    .hot-offers-info.special h4{
+        padding-bottom: 3%;
+    }
+
+    .hot-offers-info.special ul{
+        padding-top: 5px;
+        font-size: 20px;
+        line-height: 1.4rem;
+        margin-bottom: 10px;
+    }
+    
 }
 
 @media (min-width: 1200px) {
@@ -1404,16 +1481,30 @@ footer .modal form {
     }
     
     .hot-offers-info ul{
-        padding-top: px;
         font-size: 26px;
     }
     
-    .hot-offers-info h4 {
-    font-size: 38pxpx;
+    .hot-offers-info h3 {
+    font-size: 38px;
     }
     
-    .hot-offers-info h3 {
-    font-size: 44px;
+    .hot-offers-info.special{
+        padding-top: 3%;
+    }
+
+    .hot-offers-info.special h3{
+        font-size: 24px;
+    }
+
+    .hot-offers-info.special h4{
+        padding-bottom: 4%;
+    }
+
+    .hot-offers-info.special ul{
+        padding-top: 5px;
+        font-size: 22px;
+        line-height: 1.5rem;
+        margin-bottom: 20px;
     }
  
 }
