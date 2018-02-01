@@ -405,6 +405,13 @@ header h3{
     text-decoration: none;
 }
 
+.hot-offers .star{
+    padding-top: 8px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
 
 /* formats */
 
@@ -1187,10 +1194,15 @@ footer .modal form {
 
     .hot-offers-info.special ul{
         padding-top: 3px;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 0.9rem;
         margin-bottom: 5px;
     } 
+    
+    .hot-offers .star{
+        font-size: 14px;
+        line-height: 1rem;
+    }
 
 }
 
