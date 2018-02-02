@@ -59,6 +59,7 @@ header{
 header strong {
     font-weight: 800;
     font-size: 2.125rem;
+    line-height: 2.5rem;
 }
 
 header p{
@@ -565,6 +566,7 @@ footer{
 footer strong {
     font-weight: 800;
     font-size: 2.125rem;
+    line-height: 2.5rem;
 }
 
 footer p{
@@ -937,6 +939,17 @@ footer .modal form {
     .hot-offers-info {
         padding-top: 4%;
     }
+    
+    footer strong {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+    
+    header strong {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+    
 }
 
 @media (min-width: 386px) and (max-width: 766px) {
@@ -1112,6 +1125,16 @@ footer .modal form {
     .hot-offers-info {
         padding-top: 4%;
     }
+    
+    footer strong {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+    
+    header strong {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
     
 }
 
@@ -1303,6 +1326,16 @@ footer .modal form {
 		padding: 15px;
 		font-size: 13px;
 	}
+    
+            footer strong {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+    
+    header strong {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
 
 }
 
