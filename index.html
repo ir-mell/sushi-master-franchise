@@ -675,6 +675,30 @@
 
             });
 
+            $('#name').keydown(function(){
+               var self = $(this);
+                
+               var removedText = self.val().replace(/\d/, '');
+                
+               self.val(removedText);
+            });
+
+            $('#city').keydown(function(){
+               var self = $(this);
+                
+               var removedText = self.val().replace(/\d/, '');
+                
+               self.val(removedText);
+            });
+
+            $('#tel').keydown(function(){
+               var self = $(this);
+                
+               var removedText = self.val().replace(/\D/, '');
+                
+               self.val(removedText);
+            });
+
             $('[data-toggle="popover"]').popover({
                 html: true,
                 trigger: "hover"
@@ -750,11 +774,25 @@
         }
 
         function sendMail() {
+
+            /* Light validation */
+            if(!$("#name").val().length || !$("#city").val().length || !$("#tel").val().length){
+                alert("Пожалуйста, убедитесь, что все поля формы заполнены.");
+                return;
+            }
+
+            if($("#tel").val().length<=10){
+                alert("Ошибка: неверный телефон. Минимальная длина номера: 10 цифр. Пожалуйста, попробуйте еще раз.");
+                return;
+            }
+
             var mailObj = {
                 "clientName": $("#name").val(),
                 "clientCity": $("#city").val(),
                 "clientPhone": $("#tel").val()
             };
+
+
 
             $.post("mail.php", mailObj, function(data) {
                 data = JSON.parse(data);
